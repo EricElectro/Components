@@ -5,11 +5,9 @@ Basic characterization tests for TL431 shunt voltage reference operating at mini
 
 ## Component Used
 
-- **TL431**: Adjustable precision shunt voltage reference
-  -  Part Number: TL431A928
-  -  Package: TO-92
-  - Datasheet: [TL431 Datasheet](https://www.ti.com/lit/ds/symlink/tl431.pdf)
-  -  Manufacturer: Texas Instruments
+| Component | Part Number | Package | Datasheet | Manufacturer |
+|-----------|--------------|---------|-----------|--------------|
+| TL431     | TL431A928   | TO-92  | [TL431 Datasheet](https://www.ti.com/lit/ds/symlink/tl431.pdf) | Texas Instruments |
 
 ![Package](image/README/TL431_TO_92.png)
 
@@ -73,11 +71,11 @@ Determine the minimum stable cathode current for reliable operation as an op-amp
 
 ![LTSpice Graph](image/README/LTspice_Graph.png)
 
-| Rbias (Ω) | I_KA (mA) | V_ref (V) | Power (µW) | Notes           |
+| I_KA (mA) | Rbias (Ω) | V_ref (V) | Power (µW) | Notes           |
 |-----------|-----------|-----------|------------|-----------------|
-| ~2003     | 1.25      | 2.495     | 12.5       | **Recommended** |
-| ~1669     | 1.5       | 2.496     | 9.5        | Acceptable      |
-| ~1251     | 2.0       | 2.496     | 10.4       | Good margin     |
+| 1.25      | ~2003     | 2.495     | 12.5       | **Recommended** |
+| 1.5       | ~1669     | 2.496     | 9.5        | Good            |
+| 2.0       | ~1251     | 2.496     | 10.4       | Good margin     |
 
 ```
 rb_low: Ix(U1:K)=0.00125 at 2003.27941176
@@ -145,4 +143,3 @@ ref_high: V(ref)=2.49651112761 at 1251.81162083
 
 ## Notes
 - Focus on DC characteristics and minimum stable operating current
-<!-- TODO -->
