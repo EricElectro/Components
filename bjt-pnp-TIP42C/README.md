@@ -20,8 +20,12 @@
 
 ## Circuit Configuration
 
-- **$V_{in}$**: {{Description of input voltage or signal}}
-- **Key Connections**: {{Description of how components are connected}}
+- **$V_{supply}:$** 5 V - {Vs} DC supply voltage
+- **$I_1:$** Provides base current (Ib) from 0 to 400 µA - {ib} DC current source
+- **$R_{Load}$:** 270 Ω connected to the collector - {RL} Load resistor
+- **$R_{Base}$:** 200 Ω connected to the base - {RB} Base resistor
+- **$R_{Sense}$:** 10 Ω in series with the emitter to measure emitter current - {RS} Sense resistor
+- **Parameterized** values for each component to allow easy adjustments
 
 ![ltspice_schematic](image/README/ltspice_schematic.png)
 
@@ -40,7 +44,7 @@
 
 --- 
 
-## LTspice Simulation: {Test Name}
+## LTspice Simulation: BJT Biasing and Gain Characterization
 
 ### Simulation Setup
 
