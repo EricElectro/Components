@@ -1,0 +1,39 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/
+*.pyc
+
+# LTspice
+*.raw
+*.log
+*.net
+*.plt
+*.db
+autosave.*
+
+# Python / Data
+*.tmp
+*.bak
+*.csv~
+*.xlsx~
+*.log
+
+# Altium / CAD (if any future design files)
+**/History/
+**/__Previews/
+
+# Images / Media (keep only chosen)
+*.tif
+*.bmp
+
+# Ignore compiled files or test cache
+*.out
+*.exe
+*.obj
+*.dll
+
+# Ignore incomplete designs or drafts
+/bjt-pnp-TIP42C/
+/opamp-LM358/
