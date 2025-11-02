@@ -36,10 +36,6 @@ Determine the minimum stable cathode current for reliable operation as an op-amp
 
 ### Simulation Setup
 
-**File**: [`Stage01_TB_TL431_Ri_Sweep_5V.asc`](./LTSpice/TL431_Ri_Sweep_5V.asc)
-
-
-
 **Circuit Parameters**:
 
 - Supply voltage (Vcc): 5V DC
