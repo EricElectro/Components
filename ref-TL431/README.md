@@ -11,9 +11,9 @@ Basic characterization tests for TL431 shunt voltage reference operating at mini
   - Datasheet: [TL431 Datasheet](https://www.ti.com/lit/ds/symlink/tl431.pdf)
   -  Manufacturer: Texas Instruments
 
-![Package](images/README/TL431_TO_92.png)
+![Package](image/README/TL431_TO_92.png)
 
-![Simplified Schematic](images/README/Simplified_Schematic.png)
+![Simplified Schematic](image/README/Simplified_Schematic.png)
 
 ## Circuit Configuration
 - **$V_{in}$**: Input voltage to the divider
@@ -21,7 +21,7 @@ Basic characterization tests for TL431 shunt voltage reference operating at mini
 - **Anode**: Connected to ground
 - **Supply Voltage**: 5V DC
 
-![TL431 Spice Simulation](images/README/TL431_LT_Spice_Model.png)
+![TL431 Spice Simulation](image/README/TL431_LT_Spice_Model.png)
 
 ---
 
@@ -71,6 +71,8 @@ Determine the minimum stable cathode current for reliable operation as an op-amp
 
 ### Simulation Results
 
+![LTSpice Graph](image/README/LTspice_Graph.png)
+
 | Rbias (Ω) | I_KA (mA) | V_ref (V) | Power (µW) | Notes           |
 |-----------|-----------|-----------|------------|-----------------|
 | ~2003     | 1.25      | 2.495     | 12.5       | **Recommended** |
@@ -90,7 +92,7 @@ ref_high: V(ref)=2.49651112761 at 1251.81162083
 
 ## Benchtop Test
 
-![Benchtop Test Setup](images/README/Benchtop_Test_Setup.jpg)
+![Benchtop Test Setup](image/README/Benchtop_Test_Setup.jpg)
 
 - Rbias selection: 1.8 kΩ (E24), 1% recommended
 - Expected at VCC = 5.00 V:
