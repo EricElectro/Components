@@ -35,5 +35,5 @@ autosave.*
 *.dll
 
 # Ignore incomplete designs or drafts
-/bjt-pnp-TIP42C/
+#/bjt-pnp-TIP42C // Simulation completed on 11-02-2025
 /opamp-LM358/
