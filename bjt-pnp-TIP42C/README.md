@@ -135,9 +135,12 @@ vctrl_at_3v3: { V(BaseCtrl) }=4.31331668766 at 0.000103535475826
 
 ---
 
-<!-- TODO: Add Benchtop Test Details -->
-## Benchtop Test
 
+<!-- TODO: Add Benchtop Test Details -->
+
+## Benchtop Test
+- pending
+<!-- 
 ![Physical Setup](image/benchtop_setup.png)
 
 **Equipment**
@@ -175,6 +178,6 @@ vctrl_at_3v3: { V(BaseCtrl) }=4.31331668766 at 0.000103535475826
 
 ## Design Considerations
 
-- {{Any design notes or considerations based on test results}}
+- {{Any design notes or considerations based on test results}} -->
 
 ---
