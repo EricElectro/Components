@@ -8,7 +8,7 @@ This repository contains characterizations at the device level for electronic co
 ### Transistors
 | Component               | Description                                      | Folder                           |
 |-------------------------|--------------------------------------------------|----------------------------------|
-| BJT PNP TIP42C          | General-purpose PNP transistor characterization  | [bjt-pnp-TIP42C](bjt-pnp-TIP42C) |
+| TIP42C (BJT PNP)        | General-purpose PNP transistor characterization  | [bjt-pnp-TIP42C](bjt-pnp-TIP42C) |
 
 ### Voltage References
 | Component               | Description                                      | Folder                           |
