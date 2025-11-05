@@ -3,14 +3,14 @@
 ## Overview
 - **Objective**: Characterize the TIP42C PNP BJT for general-purpose amplification and switching applications.
 - For this test we will target an output voltage of 3.3 V at the collector with a load of 270 Ω, driven by a base current up to 400 µA. But other configurations can be tested as needed.
-- 
+ 
 ---
 
 ## Component(s) Used
 
 | Component | Part Number | Package | Datasheet | Manufacturer |
 |-----------|--------------|---------|-----------|--------------|
-| TIP42C   | TIP42C      | TO-220  | [Link](https://www.onsemi.com/download/data-sheet/pdf/tip42c-d.pdf) | ON Semiconductor |
+| BJT (PNP)   | TIP42C      | TO-220  | [Link](https://www.onsemi.com/download/data-sheet/pdf/tip42c-d.pdf) | ON Semiconductor |
 
 ![Package](image/README/TIP42C_TO_220.png)
 
