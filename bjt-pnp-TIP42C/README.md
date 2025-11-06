@@ -1,7 +1,7 @@
 # TIP42C PNP Bipolar Junction Transistor (BJT)
 
 ## Overview
-- **Objective**: Characterize the TIP42C PNP BJT for general-purpose amplification and switching applications.
+- **Objective**: Characterize the TIP42C PNP BJT for configuration as a voltage-controlled current source.
 - For this test we will target an output voltage of 3.3 V at the collector with a load of 270 Ω, driven by a base current up to 400 µA. But other configurations can be tested as needed.
  
 ---
